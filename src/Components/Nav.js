@@ -13,10 +13,7 @@ const Nav = () => {
         </div>
         {/* navigation links */}
         <ul className='nav-links'>
-            <li><a href="#header">Home</a></li>
-              <li>
-              <a href='/'>Home</a>
-            </li>
+            <li><a href='/'>Home</a></li>
             <li>
               <a href='/'>About</a>
             </li>
