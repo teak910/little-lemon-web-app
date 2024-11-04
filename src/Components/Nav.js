@@ -1,19 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo from '../Images/logo1.jpg';
+
 const Nav = () => {
-  return (
-    <nav className="navbar">
-      <a href="/" className='logo'>
+
+   const [menuOpen, setMenuOpen] = useState(false);
+
+   const toggleMenu = () =>{
+    setMenuOpen(!menuOpen);
+   }
+    return (
+      <nav className={`navbar ${menuOpen ? "open" : ""}`}>
+        <a href="/" className='logo'>
            <img src={Logo} className="photo-logo " alt=""/>
         </a>
-        <div className='menu-icon'>
+        <div className='menu-icon' onClick={toggleMenu}>
           <div className='bar'></div>
           <div className='bar'></div>
           <div className='bar'></div>
         </div>
         {/* navigation links */}
-        <ul className='nav-links'>
-            <li><a href='/'>Home</a></li>
+        <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
+            <li><a href="#header">Home</a></li>
             <li>
               <a href='/'>About</a>
             </li>
@@ -33,8 +40,7 @@ const Nav = () => {
               <a href='/'>Login</a>
             </li>
           </ul>
-    </nav>
-  )
-}
-
-export default Nav;
+      </nav>
+    );
+  };
+  export default Nav;

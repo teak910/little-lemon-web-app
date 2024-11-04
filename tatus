@@ -1,0 +1,29 @@
+[33mcommit 6e3466a3a5aa3041a21835de9c1b3529f2844173[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: teak910 <hopeend1985@gmail.com>
+Date:   Mon Nov 4 08:54:04 2024 +0400
+
+    styling and setting up the main component of home page
+
+[33mcommit bc83fdba89f3a3a7bdde9ebff55bc8bb18e9e644[m
+Author: teak910 <hopeend1985@gmail.com>
+Date:   Sun Nov 3 15:34:15 2024 +0400
+
+    Styling Nav and Header components
+
+[33mcommit 150b58ab32e7923b69e0ffd4a04d8945ef3a6b2e[m
+Author: teak910 <hopeend1985@gmail.com>
+Date:   Sun Nov 3 13:38:31 2024 +0400
+
+    Adding meta tags and putting semantic tags
+
+[33mcommit f6192d2282fe64d23e8912da7a2222377fb939b5[m
+Author: teak910 <hopeend1985@gmail.com>
+Date:   Sun Nov 3 13:01:17 2024 +0400
+
+    This is my first commit
+
+[33mcommit 2e3d4426b5b6697bccbc53caea9f2e63e73c4053[m
+Author: teak910 <hopeend1985@gmail.com>
+Date:   Sun Nov 3 12:50:49 2024 +0400
+
+    Initialize project using Create React App

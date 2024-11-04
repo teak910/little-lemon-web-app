@@ -1,17 +1,19 @@
-import React from 'react';
-import HeaderImg from '../Images/serveFood.jpg'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import headerImg from '../Images/serveFood.jpg';
+
 const Header = () => {
   return (
     <header className="header">
-       <section>
+      <section>
         <div className='banner'>
           <h2>Little Lemon</h2>
           <h2>Chicago</h2>
           <p>We are family owned Mediterranean resaturant, focused on traditional recipes with a modern twist.</p>
-          <button>Reserve a Table</button>
+          <Link to='/booking' aria-label="on Click"><button>Reserve a Table</button></Link>
         </div>
         <div className='header-img'>
-          <img src={HeaderImg} alt=""/>
+          <img src={headerImg} alt=""/>
         </div>
       </section>
     </header>
